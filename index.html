@@ -1,0 +1,28 @@
+<html>
+
+<head>
+    <title> HeyTube </title>
+
+    <meta property="og:type" content="website"> 
+    <meta property="og:site_name" content="HeyTube - Home"> 
+    <meta property="og:url" content="https://floppagcdn.github.io"> 
+    <meta property="og:title" content="CDN Title">
+    <meta property="og:description" content="CDN Description">
+    <meta property="og:image" content="https://floppagcdn.github.io/images/texture-not-found.png">
+</head>
+
+<script>
+    document.cookie = "style=dark;";
+    if (document.cookie.includes("style=dark")) {
+        document.location.href = "index.darkmode.html";
+    } else if (document.cookie.includes("style=light")) {
+        document.location.href = "index.lightmode.html";
+    } else {
+        //document.location.href = "index.lightmode.html";
+    }
+
+</script>
+
+<p>We could not detect your theme please select one <a href="../index.darkmode.html">Darkmode</a> or <a href="../index.lightmode.html">Lightmode</a></p>
+
+</html>
